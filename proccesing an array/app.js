@@ -7,7 +7,10 @@ for (let index = 0; index < array.length; index++) {
     count = 0;
     for (let i = 0; i < array.length; i++) {
         if(array[i + index] === def){
-                duplicates[duplicates.length] = array[i + index]
+            count++
+            if(count > 1){
+            duplicates[duplicates.length] = array[i + index]
+        }
         }
         
     }
