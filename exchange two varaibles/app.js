@@ -14,3 +14,4 @@ b = c ; //b = 5
 
 console.log("value of varaile num 1 after exchange it :", a);
 console.log("value of varaile num 2 after exchange it :", b);
+
